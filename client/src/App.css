@@ -1,0 +1,80 @@
+
+h1 {
+  text-align: center;
+}
+.title,
+.price,
+.description {
+  background-color: rgb(76, 135, 245);
+  margin-bottom: 10px;
+  height: 25px;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;        
+}
+label{
+  width: 100px;
+  display: inline-block;
+}
+input{
+  outline: none;
+}
+button{
+  background-color:rgb(76, 135, 245) ;
+  border-color: black;
+  border-radius:  5px;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.create{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: none;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border: solid rgb(76, 135, 245) 3px;
+  border-radius: 30px;
+  background-color: rgb(204, 200, 200);
+  color: rgb(21, 37, 67);
+  width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+  padding-bottom: 15px;
+}
+.update{
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: rgb(76, 135, 245);
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: small;
+}
+.product__title{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(10, 86, 250);
+}
+.text-danger{
+  text-align: center;
+}
